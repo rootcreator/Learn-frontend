@@ -3,6 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Basics</title>
+	<style>
+		h1,h2,h3,h4{
+			color:orange;
+			text-align: center;
+		}
+		.highlight{
+			font-size:20px;
+			font-weight:bold;
+			font-style:italic;
+			background-color:green;
+			opacity:6;
+		}
+		#mainpoint{
+			font-size:20px;
+			font-weight:bold;
+			background-color:red;
+			opacity:6;
+		}
+		p{
+			color:blue;
+		}
+	</style>
 </head>
 <body>
 <header>Header element. Header information goes here.</header>
@@ -28,8 +50,9 @@
 
 
 
- <section>
+ <section class="highlight">
  	<h1><a name="section1">(#section1)Lists</a></h1>
+ 	<h2>Names</h2>
 	<div>
 	<ul>
 		<li>Ruth</li>
@@ -38,11 +61,10 @@
 			<ul>
 				<li>Steve</li>
 				<li>Scott</li>
-				<li>Dr</li>
+				<li>Oyas</li>
 				<li>Pedro</li>
 			</ul>
 		</li>
-		<li>Ashawo</li>
 	</ul>
 	</div>
 
@@ -65,38 +87,29 @@
 	</div>
 </section>
 
+<section id="mainpoint">
+	<h1><a name="section2">(#section2)Entities</a></h1>
 <div>
 	<!--div is Block Level-->
-	<h1><a name="section2">(#section2)Section 2</a></h1>
-	<h1>Enitites</h1>
 	<p>There are 3 entities that should always be escaped. the greater than and lesser than,and symbols. To express the greater than use &gt;, to express the less than use &lt; while the the and smbol use &amp; 
 	</p>
 </div>
-
+</section>
 <section>
 	<h1><a name="section3">(#section3)Links</a></h1>
-	<h2>Links</h2>
-	<h3>Internal Links</h3>
-	<a href="index.html" title="main page">Link to main page</a>
-
-	<a href="index.html" title="main page"><div>Div Linking</div></a>
-
-	<h3>External Links</h3>
-	<a href="https://ghettotribe.xyz" title="Ghetto Tribe" target="_blank">Ghetto Tribe Page</a>
-
-
-	<article><h2>Article 1</h2></article>
+	<p>Internal Links <a href="index.html" title="main page">Link to main page</a>
+	</p>
+	<p>External Links
+	<a href="https://ghettotribe.xyz" title="Ghetto Tribe" target="_blank">Ghetto Tribe Page</a></p>
 </section>
-
 <section>
 	<h1><a name="section4">(#section4)Images</a></h1>
-	<h1>Images</h1>
 	<img src="img.jpg" width="400" height="350" alt="pluggedspace">
 	<p>External Image linking</p>
 	<img src="https://www.pexels.com/photo/city-road-landscape-water-15778613/">
 </section>
 
-
+<article><h2>Article 1</h2></article>
 <aside>The Aside tag.</aside>
 
 <footer>
