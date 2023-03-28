@@ -1,8 +1,24 @@
 
-p{
+p.big {
 	color: blue;
 	font-size: 20px;
 	width: 200px;
+}
+section > p {
+	color: brown;
+}
+.colored p{
+	color: lightgoldenrodyellow;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+			color:orange;
+			text-align: center;
+		}
+
+article p {
+	color: limegreen;
 }
 
 h1{
