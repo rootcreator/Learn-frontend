@@ -36,6 +36,23 @@
 		article > p {
 			color: white;
 		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black;
+			width:200;
+			text-align: center;
+			margin-bottom: 1px;
+
+		}
+		a:hover, a::active{
+			background-color: red;
+			color: purple;
+		}
+		header li:nth-child(3){
+			font-size: 24px;
+		}
 	</style>
 	
 </head>
@@ -51,36 +68,16 @@
 	</ul>
 </nav>
 
-<section class="">
-<h1><a id="top">Headings</a></h1>
-<h2>Subheading 2</h2>
-<h3>Subheading 3</h3>
-<h4>Subheading 4</h4>
-<h5>Subheading 5</h5>
-<h6>Subheading 6</h6>
-</section>
-
-
-<p class="big">Paragragh tag</p>
-
-
 
  <section class="highlight">
  	<h1><a name="section1">(#section1)Lists</a></h1>
- 	<h2 class="highlight">Names</h2>
+ 	<h2 class="highlight">Countries</h2>
 	<div>
 
 	<ul>
-		<li>Ruth</li>
-		<li>Glory</li>
-		<li>Michelle
-			<ul>
-				<li>Steve</li>
-				<li>Scott</li>
-				<li>Oyas</li>
-				<li>Pedro</li>
-			</ul>
-		</li>
+		<li>Canada</li>
+		<li>England</li>
+		<li>Nigeria</li>
 	</ul>
 	</div>
 
@@ -89,12 +86,7 @@
 		<ol>
 			<li>Flour</li>
 			<li>Butter</li>
-			<li>Sugar
-				<ol>
-				<li>Brown Sugar</li>
-				<li>Icing Sugar</li>
-				</ol>
-			</li>
+			<li>Sugar</li>
 			<li>Eggs</li>
 			<li>Milk</li>
 			<li>Baking Powder</li>
@@ -120,28 +112,16 @@
 </section>
 <section>
 	<h1><a name="section4">(#section4)Images</a></h1>
+	<p>Internal Image Link</p>
 	<img src="img.jpg" width="400" height="350" alt="pluggedspace">
-	<p>External Image linking</p>
-	<img src="https://www.pexels.com/photo/city-road-landscape-water-15778613/">
+	<p>External Image link</p>
+	<img src="https://img.freepik.com/free-photo/red-white-cat-i-white-studio_155003-13189.jpg?w=2000" alt="cat" width="500" height="500">
 </section>
 
 <article>
 <h2>Article 1</h2>
-<p class="big">Paragraph 1</p>
+<p class="big">Paragragh tag</p>
 <p>Paragraph 2</p>
-<p>
-<ul>
-		<li>Ruth</li>
-		<li>Glory</li>
-		<li>Michelle
-			<ul>
-				<li>Steve</li>
-				<li>Scott</li>
-				<li>Oyas</li>
-				<li>Pedro</li>
-			</ul>
-		</li>
-	</ul> </p>
 </article>
 <aside>The Aside tag.</aside>
 
