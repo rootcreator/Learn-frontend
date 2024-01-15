@@ -5,6 +5,20 @@ html {
 body {
   color: blue;
   font-family: Helvetica;
+  background-color: lightblue;
 }
+#header{
+  background-color: yellow;
+  border: 0px;
+  border-radius: 0px;
+}
+#logo {
+  background: url(images/ant-logo.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 0px;
+}
+
+
 h1 { color: green; }
 h2, h3 { color: maroon; }
